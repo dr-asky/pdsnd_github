@@ -10,5 +10,6 @@ Python database to explore data related to bike share systems for Chicago, New Y
 ### Files used
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+To Udacity for sharing the idea of the project
+To Motivate for sharing the data to be processed
 
