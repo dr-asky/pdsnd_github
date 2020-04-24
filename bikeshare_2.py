@@ -22,9 +22,15 @@ def get_filters():
     city = input('Enter the city name to analyze')
     if city in Cities:
         print('You looked up for: ', city)
+        break
 
     # get user input for month (all, january, february, ... , june)
-
+Months= ('all', 'january', 'febraury','march', 'april', 'may', 'june')
+while True:
+    month = input ('Which month would you like to analyze? \n> ' ).capitalize()
+    if month in Months:
+        print('You looked up for: ', month)
+        break
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
 
