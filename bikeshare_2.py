@@ -33,7 +33,12 @@ while True:
         break
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-
+Days=('all','monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday')
+while True:
+    day = input ('Which day would you look into for your analysis? \n> ').capitalize()
+    if day in Days:
+        print('You looked up for: ', day)
+        break
 
     print('-'*40)
     return city, month, day
